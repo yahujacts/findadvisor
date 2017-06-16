@@ -488,6 +488,12 @@
                 <version>1.4</version>
                 <scope>test</scope>
             </dependency>
+			<dependency>
+				<groupId>com.adobe.aem</groupId>
+				<artifactId>uber-jar</artifactId>
+				<classifier>apis</classifier>
+				<scope>provided</scope>
+			</dependency> 
         </dependencies>
     </dependencyManagement>
 
