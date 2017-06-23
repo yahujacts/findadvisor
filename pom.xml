@@ -491,8 +491,9 @@
 			<dependency>
 				<groupId>com.adobe.aem</groupId>
 				<artifactId>uber-jar</artifactId>
-				<classifier>apis</classifier>
+				<classifier>obfuscated-apis</classifier>
 				<scope>provided</scope>
+				<version>6.2.0</version>
 			</dependency> 
         </dependencies>
     </dependencyManagement>
